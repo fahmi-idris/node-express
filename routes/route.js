@@ -9,5 +9,5 @@ module.exports = function(app) {
 
 
 	// Response
-	require('./response')(app)
+	require('./response/response')(app)
 }
