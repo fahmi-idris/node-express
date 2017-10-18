@@ -1,0 +1,153 @@
+{
+	"id": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+	"name": "Express Node",
+	"description": "",
+	"order": [
+		"3f10c91e-738e-4bb1-82d8-dd2234b103d2",
+		"08ccd5f7-d606-a4be-f142-caa86f6160af",
+		"1609b57f-666c-99df-f096-842ae4e093a9",
+		"6e4e8c0b-fc58-1c93-32bb-4d0f51ec39e7",
+		"5bc4e756-60a0-946f-c692-7d9e38982e39"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1508058373978,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "08ccd5f7-d606-a4be-f142-caa86f6160af",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/users/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508316220122,
+			"name": "Delete User",
+			"description": "",
+			"collectionId": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": \"59e70b45f4e24e4989fcfec5\"\n}"
+		},
+		{
+			"id": "1609b57f-666c-99df-f096-842ae4e093a9",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/users/all",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508310976830,
+			"name": "Get All User",
+			"description": "",
+			"collectionId": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+			"responses": []
+		},
+		{
+			"id": "3f10c91e-738e-4bb1-82d8-dd2234b103d2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/users/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508310968599,
+			"name": "Create New User",
+			"description": "",
+			"collectionId": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Fahmi Idris\",\n\t\"email\": \"fidriz5@gmail.com\",\n\t\"phone\": \"08977703319\"\n}"
+		},
+		{
+			"id": "5bc4e756-60a0-946f-c692-7d9e38982e39",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/users/update/59e70b45f4e24e4989fcfec5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508315718221,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+			"responses": [],
+			"rawModeData": "{\n\t\"phone\": \"0987654321\"\n}"
+		},
+		{
+			"id": "6e4e8c0b-fc58-1c93-32bb-4d0f51ec39e7",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/users/detail/59e325543b2a0e12d237804b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508310980327,
+			"name": "Get Detail User",
+			"description": "",
+			"collectionId": "8b102ba8-6d4c-f8ee-123e-d1b0581abc19",
+			"responses": []
+		}
+	]
+}
