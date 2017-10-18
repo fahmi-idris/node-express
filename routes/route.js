@@ -1,6 +1,6 @@
 var express = require('express')
-var home = require('./home/home')
-var users = require('./users/users')
+var home = require('./home/route.home')
+var users = require('./users/route.users')
 
 module.exports = function(app) {
 	// Route list
