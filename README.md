@@ -1,2 +1,5 @@
 # node-express
-Learning node js using Express
+Simple MVC CRUD node js using Express
+
+1. Run ```npm install```
+2. Run ```npm start``` to start the server
